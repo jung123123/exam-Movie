@@ -1,0 +1,13 @@
+.gridmain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* 각 항목 사이의 간격 조정 */
+    margin-top: 100px;
+    overflow-y: auto; /* 수직 스크롤바 표시 */
+    max-height: 500px; /* 스크롤바가 나타날 최대 높이 설정 */
+
+  }
+  .maintitle{
+    text-align: center;
+    
+  }
